@@ -1,0 +1,30 @@
+# Dependency
+vendor/
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Laravel
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Archive
+*.rar
+*.zip
